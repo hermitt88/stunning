@@ -1,15 +1,39 @@
+/* square square square square square rgb(11,4,103), rgb(21,13,125), rgb(43,32,180), rgb(80,69,221), rgb(142,136,223) */
+/* Stunning rgb(53,44,178), rgb(49,40,171), rgb(46,37,116), rgb(40,31,156), rgb(30,21,139), rgb(27,19,136), rgb(23,15,128), rgb(21,13,125) */
+/* Startup, Economics, Marketing rgb(142,136,223) */
+
 body{
 	background-color:#ecf0f1; /*Azure*/
 	width: 100%;
-	margin: 0 auto;
-
 	color:#34495e; /*Cello*/
 	transition: color 0.5s ease-in-out;
 }
 
 h1{display: inline;}
-
+h2{display: inline;}
 h4{display: inline;}
+
+header{
+	background-color:burlywood;
+	position:fixed;
+	left:0;
+	top:0;
+	padding: 0.5rem;
+	height:4rem;
+	width:100%;
+}
+
+nav{
+	position:fixed;	
+	left:0;
+	top:4rem;
+	height:3rem;
+	width:100%;
+}
+
+section{
+	margin-top:8rem;
+}
 
 .navi-box {
 	display: flex;
@@ -22,7 +46,8 @@ h4{display: inline;}
 }
 
 .navi-item {
-	padding: 10px;
+	padding: 0.5rem;
+	margin-right:1rem;
 	cursor: pointer;
 }
 
@@ -31,3 +56,32 @@ h4{display: inline;}
 	text-decoration: none;
 	color: rgb(11,4,103);
 }
+
+.navi-subbox{
+cursor: pointer;
+background: #CCCCCC;
+display:none;
+}
+
+.navi-subitem {
+	padding: 0.5rem;
+	margin-left:1rem;
+	margin-right:1rem;
+	cursor: pointer;
+}
+
+.navi-subitem a {
+	text-align: center;
+	text-decoration: none;
+	color: rgb(11,4,103);
+}
+
+.navi-box li:hover .navi-subbox {
+list-style-type: none;
+border:0;
+position:absolute;
+z-index:100;
+display:flex;
+flex-direction: row;
+}
+
