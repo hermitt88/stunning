@@ -13,26 +13,44 @@ h1{display: inline;}
 h2{display: inline;}
 h4{display: inline;}
 
+div{
+	margin:0;
+text-align:center;
+}
+
+.cropping{
+    width: 643px;
+    height: 293px;
+    overflow:hidden;
+    
+}
+
+.cropping img{
+	margin-left:-17%;
+	margin-top:0%;
+	width:50%;
+}
+
 header{
-	background-color:burlywood;
+	background-color:white;
 	position:fixed;
 	left:0;
 	top:0;
-	padding: 0.5rem;
-	height:4rem;
+	padding: 0rem;
+	height:8rem;
 	width:100%;
 }
 
 nav{
 	position:fixed;	
 	left:0;
-	top:4rem;
+	top:8rem;
 	height:3rem;
 	width:100%;
 }
 
 section{
-	margin-top:8rem;
+	margin-top:12rem;
 }
 
 .navi-box {
@@ -41,30 +59,35 @@ section{
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: white;
+	background-color: #CCCCCC;
 	list-style-type: none;
+	text-align: center;
 }
 
 .navi-item {
-	padding: 0.5rem;
-	margin-right:1rem;
+	padding: 0.3rem;
 	cursor: pointer;
+	text-align: center;
+	display:inline;
 }
 
 .navi-item a {
 	text-align: center;
 	text-decoration: none;
+	margin-left:1rem;
+	margin-right:1rem;
+	display:inline-block;
 	color: rgb(11,4,103);
 }
 
 .navi-subbox{
 cursor: pointer;
-background: #CCCCCC;
-display:none;
+background: #DDDDDD;
+display: none;
 }
 
 .navi-subitem {
-	padding: 0.5rem;
+	padding: 0.3rem;
 	margin-left:1rem;
 	margin-right:1rem;
 	cursor: pointer;
@@ -81,7 +104,6 @@ list-style-type: none;
 border:0;
 position:absolute;
 z-index:100;
-display:flex;
+display: flex;
 flex-direction: row;
 }
-
