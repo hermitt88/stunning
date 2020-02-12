@@ -25,7 +25,7 @@ text-align:center;
 }
 
 .cropping img{
-	margin-left:-17%;
+	margin-left:0%;
 	margin-top:0%;
 	width:50%;
 }
@@ -52,8 +52,6 @@ section{
 }
 
 .navi-box {
-	display: inline-block;
-	position:relative;
 	width: 100%;
 	padding: 0;
 	background-color: #CCCCCC;
@@ -62,6 +60,7 @@ section{
 }
 
 .navi-item {
+	position:relative;
 	margin: 0 auto;
 	text-align: center;
 	display:inline;
@@ -81,6 +80,7 @@ section{
 	list-style-type: none;
 	position:absolute;
 	padding: 0px;
+	left:0px;
 }
 
 .navi-subitem {
