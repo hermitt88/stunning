@@ -19,15 +19,12 @@ text-align:center;
 }
 
 .cropping{
-    width: 643px;
-    height: 393px;
+	height: 20rem;
     overflow:hidden;
 }
 
 .cropping img{
-	margin-left:0%;
-	margin-top:0%;
-	width:50%;
+	height:10rem;
 }
 
 header{
@@ -79,8 +76,8 @@ section{
 	display: none;
 	list-style-type: none;
 	position:absolute;
-	padding: 0px;
-	left:0px;
+	padding: 0;
+	left:0;
 }
 
 .navi-subitem {
