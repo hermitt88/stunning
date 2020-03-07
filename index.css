@@ -9,9 +9,8 @@ body{
 	transition: color 0.5s ease-in-out;
 }
 
-h1{display: inline;}
-h2{display: inline;}
-h4{display: inline;}
+h1{text-align:center;}
+h4{text-align:center;}
 
 div{
 	margin:0 auto;
