@@ -10,21 +10,9 @@ body{
 }
 
 h1{text-align:center;}
+h2{display: inline;}
 h4{text-align:center;}
 
-div{
-	margin:0 auto;
-text-align:center;
-}
-
-.cropping{
-	height: 20rem;
-    overflow:hidden;
-}
-
-.cropping img{
-	height:10rem;
-}
 
 header{
 	background-color:white;
@@ -32,13 +20,13 @@ header{
 	left:0;
 	top:0;
 	padding: 0rem;
-	height:9rem;
+	height:8rem;
 	width:100%;
 }
 
-nav{
+#topMenu{
 	position:fixed;	
-	top:8rem;
+	top:7rem;
 	height:3rem;
 	width:100%;
 }
