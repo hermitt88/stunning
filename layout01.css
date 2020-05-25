@@ -1,0 +1,152 @@
+* {
+    padding:0; margin:0;
+    box-sizing: border-box;
+    font-family: Railway, sans-serif, serif;
+}
+
+/* body {
+    padding-top: 80px;
+} */
+
+div#wrapper {
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px dashed black; */
+}
+
+header {
+    width: 100%; height: 70px;
+    margin: 0 auto;
+    position: fixed;
+    top:0;
+    left:0; right:0;
+    background-color: none;
+}
+
+#headerLogo {
+    width: 200px; height: 50px;
+    margin: 10px;
+    background-color: royalblue;
+    float:left;
+    text-align: center;
+    line-height: 50px;
+}
+#navBox {
+    float: right;
+    width: 40%; height: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-right: 10%;
+}
+
+#navBox li {
+    list-style: none;
+    font-weight: bold;
+    display: inline;
+    float:left;
+    width:33.3%; height: 100%;
+    line-height: 50px;
+    text-align: center;
+}
+#navBox li a {
+    text-decoration: none;
+    display: block;
+}
+#navBox li a:link,
+#navBox li a:visited {
+    color: black;
+}
+#navBox li a:hover,
+#navBox li a:active {
+    background-color: royalblue;
+}
+
+
+#slider {
+    clear:both;
+    width: 100%; height: 500px;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 500px;
+    background-color: #ccc;
+}
+
+
+section {
+    clear:both;
+    overflow: auto;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+section:nth-of-type(even) {
+    background-color: royalblue;
+}
+article {
+    text-align: center;
+    border: 1px solid red;
+    margin: 0 auto;
+    float: left;
+    width: 32%;
+    height: 300px;
+    margin: 20px 0;
+}
+article:first-of-type {
+    margin-right: 2%;
+}
+article:last-of-type {
+    margin-left: 2%;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #ccc;
+    width: 100%; height: 100px;
+}
+footer p {
+    line-height: 100px;
+}
+
+#toHome {
+    background-color: white;
+    border: 1px solid black;
+    width: 50px; height: 50px; line-height: 40px;
+    position: fixed; right:1%; bottom:1%;
+    text-align: center;
+}
+#toHome:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width:760px) {
+    #headerLogo {
+        width: 200px; height: 50px;
+        margin: 10px;
+        background-color: royalblue;
+        float:left;
+        text-align: center;
+        line-height: 50px;
+    }
+    ul#navBox {
+        float: right;
+        width: 40%; height: 100%;
+        height: 40px;
+        padding: 10px;
+        margin-right: 10%;
+    }
+
+}
+@media screen and (max-width:759px) {
+    #headerLogo {
+        display: none;
+        width: 0;
+        margin: 0 auto;
+    }
+    ul#navBox {
+        clear:both;
+        width: 100%;
+        margin: 0 auto;
+    }
+}

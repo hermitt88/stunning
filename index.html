@@ -1,69 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-	<meta charset="utf-8">
-	<title>Stunning</title>
-	<link rel="stylesheet" href="index.css" alt=""/>
-	<!-- <link rel="icon" type="image/png" href="탭에 표시할 아이콘"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="layout01.css">
+    <link rel="stylesheet" href="layout02.css">
+    <link rel="stylesheet" href="layout03.css">
 </head>
-<body>
-	<header class="header-navi">
-
-		<h1 style="color:rgb(21,13,125)"> Stunning </h1>
-		<h4 style="color:rgb(142,136,223)">Startup, Economics, Marketing </h4>
-
-		<nav id="topMenu">
-			<ul class="navi-box">
-				<li class="navi-item"><a href="index.html">Main</a></li>
-				<li class="navi-item"><a href="">Contents</a>
-					<ul class="navi-subbox">
-						<li class="navi-subitem"><a href="">Economy</a></li>
-						<li class="navi-subitem"><a href="">Startup</a></li>
-						<li class="navi-subitem"><a href="">English</a></li>
-					</ul>
-				</li>
-				<li class="navi-item"><a href="">Interviews</a></li>
-				<li class="navi-item"><a href="">About Us</a></li>
-			</ul>
-		</nav>
-	</header>
-
-<section>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-<h3>h</h3>
-
-</section>
-
+<body onload="applyStyle(0)">
+    <div id="wrapper">
+        <header id="topNav">
+            <a href="index.html"><div id="headerLogo">put Logo here</div></a>
+            <ul id="navBox">
+                <li><a href="#" onClick="applyStyle(0);return false">Layout1</a></li>
+                <li><a href="#" onClick="applyStyle(1);return false">Layout2</a></li>
+                <li><a href="#" onClick="applyStyle(2);return false">Layout3</a></li>
+                <!-- <li><a href="#" onClick="applyStyle(3);return false">Layout4</a></li> -->
+                <!-- <li><a href="#" onClick="applyStyle(4);return false">Layout5</a></li> -->
+            </ul>
+        </header>
+        <div id="slider">Page description</div>
+        <section class="section1"><h2>Section 1 title</h2>
+            <article class="article1">article1-1</article>
+            <article class="article2">article1-2</article>
+            <article class="article3">article1-3</article>
+        </section>
+        <section class="section2"><h2>Section 2 title</h2>
+            <article class="article1">article2-1</article>
+            <article class="article2">article2-2</article>
+            <article class="article3">article2-3</article>
+        </section>
+        <section class="section3"><h2>Section 3 title</h2>
+            <article class="article1">article3-1</article>
+            <article class="article2">article3-2</article>
+            <article class="article3">article3-3</article>
+        </section>
+        <section class="section4"><h2>Section 4 title</h2>
+            <article class="article1">article4-1</article>
+            <article class="article2">article4-2</article>
+            <article class="article3">article4-3</article>
+        </section>
+        <footer>
+            <p>copyright &copy; 도메인명 all right reserved</p>
+        </footer>
+        <div id="toHome" onclick="window.scrollTo(0,0);">
+            ↑
+        </div>
+        <script src="navsize.js"></script>
+        <script src="applyLayout.js"></script>
+    </div>
 </body>
 </html>
